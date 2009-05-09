@@ -1,4 +1,4 @@
- =Social Mention API Documentation=
+=Social Mention API Documentation=
 
 Social Mention provides an API for developers query for social media search results in several different formats.
 
