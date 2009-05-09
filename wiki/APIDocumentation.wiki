@@ -2,7 +2,7 @@
 
 Social Mention provides an API for developers query for social media search results in several different formats.
 
-===Search API===
+==Search API==
 
 The search query feed is read-only data and comes in several formats including RSS, JSON, and PHP. It offers a window into what's going on across various social media sites - which you can use in news readers, blogs, or your own third-party applications.
 
