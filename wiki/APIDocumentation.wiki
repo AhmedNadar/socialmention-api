@@ -20,7 +20,7 @@ http://socialmention.com/search
 ||callback|| (optional) required for JSONP compatible requests||
 ||key|| (optional) required for commercial requests||
 
-* Example:*
+*Example:*
 {{{
 http://socialmention.com/search?q=iphone+apps&f=json&t=microblogs&lang=fr
 }}}
@@ -28,6 +28,7 @@ http://socialmention.com/search?q=iphone+apps&f=json&t=microblogs&lang=fr
 ===Response Properties===
 The search API will return the following properties for JSON and PHP response formats. Not all meta data is available for every item
 
+* count - number of items
 * items (array)
  * title
  * description
