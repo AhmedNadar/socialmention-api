@@ -1,13 +1,21 @@
-#summary One-sentence summary of this page.
+=Social Mention API Documentation=
 
-= Introduction =
+Social Mention provides an API for developers query for social media search results in several different formats.
 
-Add your content here.
+===Search API===
 
+The search query feed is read-only data and comes in several formats including RSS, JSON, and PHP. It offers a window into what's going on across various social media sites - which you can use in news readers, blogs, or your own third-party applications.
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+*Base URL prefix:*
+{{{
+http://socialmention.com/search
+}}}
+*REST Parameters:*
+|| *Parameter* || *Description* ||
+||q||Url encoded query term||
+||f|| Response file format (json, rss, php, csv)||
+||t|| Type of search (blogs, microblogs, bookmarks, comments, events, images, news, videos, audio, questions, all)||
+||lang|| 2 letter [http://en.wikipedia.org/wiki/ISO_639-1 ISO 639-1] language code||
+||l|| Location (city and state/province). Required if search type is "events"||
+||callback|| Only required for JSONP requests||
+||key|| Required for commercial requests||
