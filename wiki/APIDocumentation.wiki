@@ -19,3 +19,8 @@ http://socialmention.com/search
 ||l|| location string (city and state/province). Required if search type is "events"||
 ||callback|| (optional) required for JSONP compatible requests||
 ||key|| (optional) required for commercial requests||
+
+* Example:*
+{{{
+http://socialmention.com/search?q=iphone+apps&f=json&t=microblogs&lang=fr
+}}}
