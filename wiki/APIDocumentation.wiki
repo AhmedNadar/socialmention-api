@@ -28,7 +28,7 @@ http://socialmention.com/search?q=iphone+apps&f=json&t=microblogs&lang=fr
 ===Response Properties===
 The search API will return the following properties for JSON and PHP response formats. Not all meta data is available for every item
 
-* items[]
+* items (array)
  * title
  * description
  * link
