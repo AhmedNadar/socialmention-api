@@ -24,3 +24,20 @@ http://socialmention.com/search
 {{{
 http://socialmention.com/search?q=iphone+apps&f=json&t=microblogs&lang=fr
 }}}
+
+===Response Properties===
+The search API will return the following properties for JSON and PHP response formats. Not all meta data is available for every item
+
+* items[]
+ * title
+ * description
+ * link
+ * timestamp
+ * image - story or item image
+ * embed - video embed script
+ * user - author's username
+ * user_image - author's profile image
+ * user_link - author's profile url
+ * domain - the original source's domain
+ * source - the original source's name
+ * favicon - the original source's favicon
