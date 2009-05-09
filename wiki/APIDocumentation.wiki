@@ -12,10 +12,10 @@ http://socialmention.com/search
 }}}
 *REST Parameters:*
 || *Parameter* || *Description* ||
-||q||Url encoded query term||
-||f|| Response file format (json, rss, php, csv)||
-||t|| Type of search (blogs, microblogs, bookmarks, comments, events, images, news, videos, audio, questions, all)||
+||q||url encoded query terms (can include exception ex: "iphone apps -blackberry")||
+||f|| response format (json, rss, php, csv)||
+||t|| search type (blogs, microblogs, bookmarks, comments, events, images, news, videos, audio, questions, all)||
 ||lang|| 2 letter [http://en.wikipedia.org/wiki/ISO_639-1 ISO 639-1] language code||
-||l|| Location (city and state/province). Required if search type is "events"||
-||callback|| Only required for JSONP requests||
-||key|| Required for commercial requests||
+||l|| location string (city and state/province). Required if search type is "events"||
+||callback|| (optional) required for JSONP compatible requests||
+||key|| (optional) required for commercial requests||
