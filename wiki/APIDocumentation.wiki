@@ -1,4 +1,4 @@
-=Social Mention API Documentation=
+ =Social Mention API Documentation=
 
 Social Mention provides an API for developers query for social media search results in several different formats.
 
@@ -30,15 +30,15 @@ The search API will return the following properties for JSON and PHP response fo
 
   * count - number of items
   * items (array)
- * title
- * description
- * link
- * timestamp
- * image - story or item image
- * embed - video embed script
- * user - author's username
- * user_image - author's profile image
- * user_link - author's profile url
- * domain - the original source's domain
- * source - the original source's name
- * favicon - the original source's favicon
+    * title
+    * description
+    * link
+    * timestamp
+    * image - story or item image
+    * embed - video embed script
+    * user - author's username
+    * user_image - author's profile image
+    * user_link - author's profile url
+    * domain - the original source's domain
+    * source - the original source's name
+    * favicon - the original source's favicon
