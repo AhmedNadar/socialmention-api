@@ -15,7 +15,7 @@ http://socialmention.com/search
 ||q||url encoded query terms (can include exception ex: "iphone apps -blackberry")||
 ||f|| response format (json, rss, php, csv)||
 ||t|| search type (blogs, microblogs, bookmarks, comments, events, images, news, videos, audio, questions, all)||
-||lang|| 2 letter [http://en.wikipedia.org/wiki/ISO_639-1 ISO 639-1] language code||
+||lang|| (optional) 2 letter [http://en.wikipedia.org/wiki/ISO_639-1 ISO 639-1] language code (if null - "any" language will be returned||
 ||l|| location string (city and state/province). Required if search type is "events"||
 ||callback|| (optional) required for JSONP compatible requests||
 ||key|| (optional) required for commercial requests||
