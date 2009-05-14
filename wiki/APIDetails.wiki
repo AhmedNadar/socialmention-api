@@ -2,11 +2,7 @@
 
 The Social Mention API provides a single stream of real-time search data aggregated from numerous social media properties.
 
-*How it works*
-
-Each API call initializes live querying of each social media source and the data is sorted, process, and normalized.
-
-*Point in time searching*
+An API call initializes live querying of each social media source and the data is sorted, processed, and normalized.
 
 Search query data is not currently archived therefore results are limited to the X most recent items from each social media source. Where X is the data limit set by the social media source itself, for example Twitter currently has a data limit of 100 items.
 
