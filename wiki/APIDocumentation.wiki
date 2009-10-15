@@ -14,7 +14,7 @@ http://socialmention.com/search
 || *Parameter* || *Description* ||
 ||q||url encoded query terms (can include exception ex: "iphone apps -blackberry")||
 ||f|| response format (json, rss, php, csv)||
-||t|| single search type (blogs, microblogs, bookmarks, comments, events, images, news, videos, audio, questions, all)||
+||t|| single search type (blogs, microblogs, bookmarks, comments, events, images, news, videos, audio, questions, networks, all)||
 ||t`[]`|| multiple search types (ex: http://socialmention.com/search?q=iphone&t[]=blogs&t[]=microblogs)||
 ||src`[]`|| specific social media sources (ex: http://socialmention.com/search?q=iphone&src[]=twitter&t[]=youtube) ||
 ||lang|| (optional) 2 letter [http://en.wikipedia.org/wiki/ISO_639-1 ISO 639-1] language code (if null - source default language will be returned||
