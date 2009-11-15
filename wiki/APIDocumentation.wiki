@@ -44,3 +44,4 @@ The search API will return the following properties for JSON and PHP response fo
     * domain - the original source's domain
     * source - the original source's name
     * favicon - the original source's favicon
+    * type - mention type, ie: blogs, microblogs, comments etc.
