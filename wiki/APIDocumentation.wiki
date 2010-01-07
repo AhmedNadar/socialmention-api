@@ -47,6 +47,9 @@ The search API will return the following properties for JSON, PHP, and XML respo
     * source - the original source's name
     * favicon - the original source's favicon
     * type - mention type, ie: blogs, microblogs, comments etc.
+
+Additional item properties (available to commercial API users):
+
     * sentiment - positive or negative integer score, ex: -1, 0, +8 etc.
     * retweet - is mention a retweet, boolean, ex: "RT @..."
     * urls_cited - number of links in mention
