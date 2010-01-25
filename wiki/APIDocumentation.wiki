@@ -20,6 +20,7 @@ http://socialmention.com/search
 ||l|| location string (city and state/province). Required if search type is "events"||
 ||callback|| (optional) required for JSONP compatible requests||
 ||key|| (optional) required for commercial requests||
+||from_ts|| (optional) remove results older than the supplied timestamp ||
 
 *Example:*
 {{{
