@@ -21,6 +21,7 @@ http://socialmention.com/search
 ||callback|| (optional) required for JSONP compatible requests||
 ||key|| (optional) required for commercial requests||
 ||from_ts|| (optional) remove results older than the supplied timestamp ||
+||meta`[]`|| (optional) meta data to include (top) ||
 
 *Example:*
 {{{
@@ -56,3 +57,6 @@ Additional item properties (available to commercial API users):
     * urls_cited - number of links in mention
     * hashtags - number of hashtags in mention, ex: "... #hashtag"
     * references - number of @references in mention
+    * top_users - array of top users by activity
+    * top_hashtags - array of top hashtags
+    * top_keywords - array of top keywords
